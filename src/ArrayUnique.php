@@ -10,7 +10,7 @@ class ArrayUnique
     {
         $this->array = $array;
     }
-
+ 
     public function arrayUnique(): array
     {
         $uniqueArray = [];
