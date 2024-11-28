@@ -10,8 +10,8 @@ class ArrayUnique
     {
         $this->array = $array;
     }
- 
-    public function arrayUnique(): array
+
+    public function ArrayUnique(): array
     {
         $uniqueArray = [];
         foreach ($this->array as $value) {
