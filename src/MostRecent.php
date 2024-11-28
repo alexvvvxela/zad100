@@ -11,7 +11,7 @@ class MostRecent
         $this->text = preg_replace('/[^\p{L}\p{N}\s]/ui', '', $text);
     }
 
-    public function mostRecent(): string
+    public function MostRecent(): string
     {
         $words = str_word_count(strtolower($this->text), 1);
         $wordCounts = array_count_values($words);
